@@ -160,7 +160,7 @@ sub repack_boot {
 
 	if (-e $outfile) {
 		print colored ("\nSuccessfully repacked $type image into '$outfile'.", 'green') . "\n";
-		clean_files();
+		# clean_files();
 	}
 }
 
